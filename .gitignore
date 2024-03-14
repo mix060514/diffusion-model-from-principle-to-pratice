@@ -164,4 +164,3 @@ my-finetuned-model/
 mnist/
 my_pipeline/
 venv/
->>>>>>> d224e89 (first commit on triton laptop)
