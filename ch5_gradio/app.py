@@ -13,6 +13,7 @@ from PIL import Image, ImageColor
 import numpy as np 
 import torch
 import torchvision
+import safetensors
 from diffusers import DDPMPipeline, DDIMScheduler
 from tqdm.auto import tqdm
 device = "cuda" if torch.cuda.is_available() else "cpu"
